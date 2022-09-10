@@ -1,0 +1,17 @@
+name: PotionRain
+version: "${version}"
+main: me.proferk.potionrain.Main
+api-version: "${apiVersion}"
+authors: [ Proferk ]
+description: Rains potions
+
+commands:
+  potionRain:
+    description: Start the potion rain
+    usage: /<command>
+    aliases:
+      - pr
+
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:${kotlinVersion}
+  - org.jetbrains.kotlin:kotlin-reflect:${kotlinVersion}
